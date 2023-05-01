@@ -3,7 +3,7 @@ The classic email sending library for JavaScript.
 
 ## Documentation
 ### EmailJS
-1. First of all, go to EmailJS website (https://www.emailjs.com/) and create your account.
+1. First of all, go to EmailJS website (https://www.emailjs.com) and create your account.
 2. After registering, you will be directed to the EmailJS dashboard. Select `Add New Service` to create a new service.
 3. Select the appropriate email service that you use, then for the service name you can change it or leave it as the default, there is a `Service ID` and you copy it and then you click `Connect Account` then you will be directed to the email account login page to associate which email you want to use to send messages.
 4. Now, you need to add an email template. Click on the `Email Templates` tab and then click on `Create new template`.
@@ -13,18 +13,20 @@ The classic email sending library for JavaScript.
 7. After that, to send an email message, fill it below according to what we got above.
 
 ```javascript
-<script src="jsmailer.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script src="https://raw.githubusercontent.com/rioagungpurnomo/jsmailer/main/jsmailer.js"></script>
 <script>
 jsmailer.emailjs({
-      "public_key":"You Public Key",
-      "service_id": "You Service ID",
-      "template_id": "You Template ID",
-      "name": "Email Account Name",
-      "to": "Destination Email",
-      "subject": "Hello Javascript",
-      "message": "<h1>Messages sent with Javascript</h1>",
-      "display": true
-    });
+  "public_key":"You Public Key",
+  "service_id": "You Service ID",
+  "template_id": "You Template ID",
+  "name": "Email Account Name",
+  "to": "Destination Email",
+  "subject": "Hello Javascript",
+  "message": "<h1>Messages sent with Javascript</h1>",
+  "display": true
+});
 </script>
 ```
 If you don't want to receive display output, all you have to do is change `display` to `false`.
@@ -42,16 +44,18 @@ Documentation: [**EmailJS**](https://www.emailjs.com/docs)
 5. After that, to send an email message, fill it below according to what we got above.
 
 ```javascript
-<script src="jsmailer.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script src="https://raw.githubusercontent.com/rioagungpurnomo/jsmailer/main/jsmailer.js"></script>
 <script>
 jsmailer.smtpjs({
-      "email": "You Email",
-      "password": "You Password",
-      "to": "Destination Email",
-      "subject": "Hello Javascript",
-      "message": "<h1>Messages sent with Javascript</h1>",
-      "display": true
-    });
+  "email": "You Email",
+  "password": "You Password",
+  "to": "Destination Email",
+  "subject": "Hello Javascript",
+  "message": "<h1>Messages sent with Javascript</h1>",
+  "display": true
+});
 </script>
 ```
 If you don't want to receive display output, all you have to do is change `display` to `false`.
