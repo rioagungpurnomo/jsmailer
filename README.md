@@ -64,7 +64,7 @@ If you don't want to receive display output, all you have to do is change `displ
 ```
 Documentation:
 - [**SmtpJS**](https://www.smtpjs.com)
-- [**SmtpJS**](https://elasticemail.com)
+- [**Elastice Mail**](https://elasticemail.com)
 
 ## Donate
 <a href="https://trakteer.id/rioagungpurnomo" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-6.png" height="40" style="border:0px;height:40px;" alt="Trakteer Saya"></a>
