@@ -23,20 +23,16 @@ var jsmailer = {
           iterations: iterations,
         });
         
-        array = {
-          "key": key,
-          "iv": 263429942052226
-        };
-        return array;
+        return [key, 263429942052226];
   },
   encrypt: function(plaintext){
-    const iv = jsmailer.key().iv;
-    const ciphertext = CryptoJS.AES.encrypt(plaintext, jsmailer.key().key, { iv: iv });
+    const iv = jsmailer.key()[1];
+    const ciphertext = CryptoJS.AES.encrypt(plaintext, jsmailer.key()[0], { iv: iv });
     return ciphertext.toString();
   },
   decrypt: function(ciphertext){
-    const iv = jsmailer.key().iv;
-    const bytes = CryptoJS.AES.decrypt(ciphertext, jsmailer.key().key, { iv: iv });
+    const iv = jsmailer.key()[1];
+    const bytes = CryptoJS.AES.decrypt(ciphertext, jsmailer.key()[0], { iv: iv });
     const plaintext = bytes.toString(CryptoJS.enc.Utf8);
     return plaintext;
   },
