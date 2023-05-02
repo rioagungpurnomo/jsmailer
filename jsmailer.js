@@ -25,6 +25,16 @@ var jsmailer = {
         
         return key;
   },
+  generateIv: function(){
+    let result = '';
+    const digits = 16;
+  const randomNumber = Math.floor(Math.random() * Math.pow(10, digits)).toString();
+  for (let i = 0; i < digits - randomNumber.length; i++) {
+    result += '0';
+  }
+  result += randomNumber;
+  return result;
+  },
   encrypt: function(plaintext, iv){
     const ciphertext = CryptoJS.AES.encrypt(plaintext, jsmailer.key(), { iv: iv });
     return ciphertext.toString();
