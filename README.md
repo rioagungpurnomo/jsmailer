@@ -13,8 +13,6 @@ The classic email sending library for JavaScript.
 7. After that, to send an email message, fill it below according to what we got above.
 
 ```javascript
-<script src="https://smtpjs.com/v3/smtp.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 <script src="https://jsmailer.pages.dev/jsmailer.js"></script>
 <script>
 jsmailer.emailjs({
@@ -44,8 +42,6 @@ Documentation: [**EmailJS**](https://www.emailjs.com/docs)
 5. After that, to send an email message, fill it below according to what we got above.
 
 ```javascript
-<script src="https://smtpjs.com/v3/smtp.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 <script src="https://jsmailer.pages.dev/jsmailer.js"></script>
 <script>
 jsmailer.smtpjs({
