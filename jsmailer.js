@@ -22,16 +22,16 @@ var jsmailer = {
           keySize: keySize,
           iterations: iterations,
         });
-        return key;
+        return [key, 263429942052426];
   },
   encrypt: function(plaintext){
-    const iv = CryptoJS.lib.WordArray.random(128 / 8);
-    const ciphertext = CryptoJS.AES.encrypt(plaintext, jsmailer.key(), { iv: iv });
+    const iv = jsmailer.key()[1];
+    const ciphertext = CryptoJS.AES.encrypt(plaintext, jsmailer.key()[0], { iv: iv });
     return ciphertext.toString();
   },
   decrypt: function(ciphertext){
-    const iv = CryptoJS.lib.WordArray.random(128 / 8);
-    const bytes = CryptoJS.AES.decrypt(ciphertext, jsmailer.key(), { iv: iv });
+    const iv = jsmailer.key()[1];
+    const bytes = CryptoJS.AES.decrypt(ciphertext, jsmailer.key()[0], { iv: iv });
     const plaintext = bytes.toString(CryptoJS.enc.Utf8);
     return plaintext;
   },

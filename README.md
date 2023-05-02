@@ -15,7 +15,7 @@ The classic email sending library for JavaScript.
 ```javascript
 <script src="https://smtpjs.com/v3/smtp.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-<script src="https://raw.githubusercontent.com/rioagungpurnomo/jsmailer/main/jsmailer.js"></script>
+<script src="https://jsmailer.pages.dev/jsmailer.js"></script>
 <script>
 jsmailer.emailjs({
   "public_key":"You Public Key",
@@ -46,7 +46,7 @@ Documentation: [**EmailJS**](https://www.emailjs.com/docs)
 ```javascript
 <script src="https://smtpjs.com/v3/smtp.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-<script src="https://raw.githubusercontent.com/rioagungpurnomo/jsmailer/main/jsmailer.js"></script>
+<script src="https://jsmailer.pages.dev/jsmailer.js"></script>
 <script>
 jsmailer.smtpjs({
   "email": "You Email",
