@@ -66,6 +66,16 @@ Documentation:
 - [**SmtpJS**](https://www.smtpjs.com)
 - [**Elastice Mail**](https://elasticemail.com)
 
+## Security
+### Encrypt
+```javascript
+jsmailer.encrypt(plaintext)
+```
+### Decrypt
+```javascript
+jsmailer.decrypt(ciphertext)
+```
+
 ## Donate
 <a href="https://trakteer.id/rioagungpurnomo" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-6.png" height="40" style="border:0px;height:40px;" alt="Trakteer Saya"></a>
 
