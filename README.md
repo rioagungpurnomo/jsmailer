@@ -67,13 +67,16 @@ Documentation:
 - [**Elastice Mail**](https://elasticemail.com)
 
 ## Security
+> **Warning :** Keep in mind that iv must be stored together with the ciphertext so that it can be used for decryption later.
 ### Encrypt
 ```javascript
-jsmailer.encrypt(plaintext)
+const iv = CryptoJS.lib.WordArray.random(128 / 8);
+jsmailer.encrypt(plaintext, iv)
 ```
 ### Decrypt
 ```javascript
-jsmailer.decrypt(ciphertext)
+const iv = CryptoJS.lib.WordArray.random(128 / 8);
+jsmailer.decrypt(ciphertext, iv)
 ```
 
 ## Donate
