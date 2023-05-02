@@ -22,7 +22,7 @@ var jsmailer = {
           keySize: keySize,
           iterations: iterations,
         });
-        return [key, 263429942052426];
+        return [key, 263429942052226];
   },
   encrypt: function(plaintext){
     const iv = jsmailer.key()[1];
