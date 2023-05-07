@@ -13,7 +13,7 @@ The classic email sending library for JavaScript.
 7. After that, to send an email message, fill it below according to what we got above.
 
 ```javascript
-<script src="https://jsmailer.pages.dev/jsmailer.js"></script>
+<script src="https://forestapi.up.railway.app/cdn/github/rioagungpurnomo/jsmailer/main/jsmailer.js"></script>
 <script>
 jsmailer.emailjs({
   "public_key":"You Public Key",
@@ -42,7 +42,7 @@ Documentation: [**EmailJS**](https://www.emailjs.com/docs)
 5. After that, to send an email message, fill it below according to what we got above.
 
 ```javascript
-<script src="https://jsmailer.pages.dev/jsmailer.js"></script>
+<script src="https://jsmailer.p"></script>
 <script>
 jsmailer.smtpjs({
   "email": "You Email",
