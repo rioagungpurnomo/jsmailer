@@ -42,7 +42,7 @@ Documentation: [**EmailJS**](https://www.emailjs.com/docs)
 5. After that, to send an email message, fill it below according to what we got above.
 
 ```javascript
-<script src="[https://jsmailer.p](https://forestapi.up.railway.app/cdn/github/rioagungpurnomo/jsmailer/main/jsmailer.js)"></script>
+<script src="https://forestapi.up.railway.app/cdn/github/rioagungpurnomo/jsmailer/main/jsmailer.js"></script>
 <script>
 jsmailer.smtpjs({
   "email": "You Email",
