@@ -13,7 +13,7 @@ The classic email sending library for JavaScript.
 7. After that, to send an email message, fill it below according to what we got above.
 
 ```javascript
-<script src="https://forestapi.up.railway.app/cdn/github/rioagungpurnomo/jsmailer/main/jsmailer.js"></script>
+<script src="https://forestapi.my.id/cdn/github/rioagungpurnomo/jsmailer/main/jsmailer.js"></script>
 <script>
 jsmailer.emailjs({
   "public_key":"You Public Key",
@@ -42,7 +42,7 @@ Documentation: [**EmailJS**](https://www.emailjs.com/docs)
 5. After that, to send an email message, fill it below according to what we got above.
 
 ```javascript
-<script src="https://forestapi.up.railway.app/cdn/github/rioagungpurnomo/jsmailer/main/jsmailer.js"></script>
+<script src="https://forestapi.my.id/cdn/github/rioagungpurnomo/jsmailer/main/jsmailer.js"></script>
 <script>
 jsmailer.smtpjs({
   "email": "You Email",
@@ -67,7 +67,7 @@ Saweria : **[Support me](https://saweria.co/rioagungpurnomo)**
 
 Trakteer : **[Support me](https://trakteer.id/rioagungpurnomo)**
 
-Paypal : **[Support me](https://www.paypal.me/RioDev)**
+Paypal : **[Support me](https://www.paypal.me/rioagungpurnomoo)**
 
 ## Contact me
 Contact me via email: rioagungpurnomo.ak@gmail.com, I'm waiting for your input or suggestions.
